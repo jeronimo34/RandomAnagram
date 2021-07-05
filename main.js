@@ -1,7 +1,7 @@
 
 function GenerateAnagram(message)
 {
-    if(message.length < 2) return [message];
+    if(message.length < 2) return message;
 
     // generate serial numbers
     let serials = new Array(message.length);
