@@ -46,8 +46,9 @@ const App = {
         this.items.length = 0;
         
         // generate anagrams
+        let anagram = this.message;
         for(let i = 0; i < 100; ++i) {
-            let anagram = GenerateAnagram(this.message);
+            anagram= GenerateAnagram(anagram);
             this.items.push(anagram);    
          }
       }
