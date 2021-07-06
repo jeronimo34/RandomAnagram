@@ -56,4 +56,4 @@ const App = {
   }
   
 
-  Vue.createApp(App).mount('#counter')
+  Vue.createApp(App).mount('#app')
